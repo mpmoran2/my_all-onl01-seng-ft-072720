@@ -4,6 +4,6 @@ def my_all?(collection)
  i = 0
   while i < collection.length
     i += 1   #this is easier. less typing
-    y
+    yield(collection[i])
   end
 end
